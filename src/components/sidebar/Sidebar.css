@@ -1,0 +1,92 @@
+.sidebar {
+  display: flex;
+  flex: 0.35;
+  height: 100vh;
+}
+.sidebar .sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 7px 15px;
+}
+.sidebar .sidebarLeft .serverIcon {
+  margin-bottom: 10px;
+  margin-top: 7px;
+  width: 40px;
+  height: 40px;
+  background-color: #d62222;
+  position: relative;
+}
+.sidebar .sidebarLeft .serverIcon img {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sidebar .sidebarRight {
+  display: flex;
+  flex-direction: column;
+  background-color: #252525;
+  width: 300px;
+  position: relative;
+}
+.sidebar .sidebarRight .sidebarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.sidebar .sidebarRight .sidebarChannels {
+  padding: 13px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarHeader {
+  display: flex;
+}
+.sidebar .sidebarRight .sidebarChannels .sidebarChannelsHeader .sidebarAddChannel {
+  cursor: pointer;
+}
+.sidebar .sidebarRight .sidebarFooter {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  padding-bottom: 10px;
+  border-top: 1px solid #ffffff;
+  padding-top: 10px;
+  margin-left: -3px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount img {
+  width: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName {
+  margin-left: 5px;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarAccount .accountName span {
+  color: #ffffff;
+}
+.sidebar .sidebarRight .sidebarFooter .sidebarVoice {
+  display: flex;
+  gap: 12px;
+  color: #ffffff;
+}/*# sourceMappingURL=Sidebar.css.map */

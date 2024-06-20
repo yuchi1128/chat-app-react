@@ -1,0 +1,25 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+.login button {
+  width: 200px;
+  background-color: #565860;
+  color: #eff2f5;
+  font-weight: 800;
+}
+.login button:hover {
+  background-color: black;
+  color: #29292a;
+}
+.login .loginLogo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 150px;
+}/*# sourceMappingURL=Login.css.map */
